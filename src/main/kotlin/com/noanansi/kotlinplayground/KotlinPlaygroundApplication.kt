@@ -7,5 +7,6 @@ import org.springframework.boot.runApplication
 class KotlinPlaygroundApplication
 
 fun main(args: Array<String>) {
-	runApplication<KotlinPlaygroundApplication>(*args)
+    @Suppress("SpreadOperator")
+    runApplication<KotlinPlaygroundApplication>(*args)
 }
